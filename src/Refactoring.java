@@ -6,8 +6,8 @@
  */
 public class Refactoring {
     public static void main(String[] args) {
-        int a, b;
-        a = '11';
+        double a, b;
+        a = 11;
         b = 5.2;
         System.out.println(m1(a, b));
         System.out.println(m2(a, b));
