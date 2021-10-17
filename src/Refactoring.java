@@ -9,35 +9,35 @@ public class Refactoring {
         double a, b;
         a = 11;
         b = 5.2;
-        System.out.println(m1(a, b));
-        System.out.println(m2(a, b));
-        System.out.println(m3(a, b));
-        System.out.println(m4(a, b));
-        System.out.println(m5(a, b));
-        System.out.println(m6(a, b));
+        System.out.println(sum(a, b));
+        System.out.println(dif(a, b));
+        System.out.println(mul(a, b));
+        System.out.println(div(a, b));
+        System.out.println(exp(a, b));
+        System.out.println(mod(a, b));
     }
 
-    private static double m1(double a, double b) {
+    private static double sum(double a, double b) {
         return a + b;
     }
 
-    private static double m2(double a, double b) {
+    private static double dif(double a, double b) {
         return a - b;
     }
 
-    private static double m3(double a, double b) {
+    private static double mul(double a, double b) {
         return a * b;
     }
 
-    private static double m4(double a, double b) {
+    private static double div(double a, double b) {
         return a / b;
     }
 
-    private static double m5(double a, double b) {
+    private static double exp(double a, double b) {
         return Math.pow(b,a);
     }
 
-    private static double m6(double a, double b) {
+    private static double mod(double a, double b) {
         return a % b;
     }
 }
