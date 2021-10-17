@@ -17,27 +17,27 @@ public class Refactoring {
         System.out.println(m6(a, b));
     }
 
-    private int m1(int a, int b) {
+    private double m1(double a, double b) {
         return a + b;
     }
 
-    private static int m2(int a, int b) {
+    private static double m2(double a, double b) {
         return a - b;
     }
 
-    private  int m3(int a, int b) {
+    private  double m3(double a, double b) {
         return a * b;
     }
 
-    private static int m4(int a, double b) {
+    private static double m4(double a, double b) {
         return a / b;
     }
 
-    private int m5(int a, double b) {
+    private double m5(double a, double b) {
         return Math.pow(b,a);
     }
 
-    private static int m6(int a, double b) {
+    private static double m6(double a, double b) {
         return a % b;
     }
 }
