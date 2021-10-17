@@ -17,7 +17,7 @@ public class Refactoring {
         System.out.println(m6(a, b));
     }
 
-    private double m1(double a, double b) {
+    private static double m1(double a, double b) {
         return a + b;
     }
 
@@ -25,7 +25,7 @@ public class Refactoring {
         return a - b;
     }
 
-    private  double m3(double a, double b) {
+    private static double m3(double a, double b) {
         return a * b;
     }
 
@@ -33,7 +33,7 @@ public class Refactoring {
         return a / b;
     }
 
-    private double m5(double a, double b) {
+    private static double m5(double a, double b) {
         return Math.pow(b,a);
     }
 
